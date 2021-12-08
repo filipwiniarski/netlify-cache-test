@@ -1,0 +1,11 @@
+identifier: k2wdx0i496g54a11
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: netlify-cache-test
+homeFolder: /Users/filipwiniarski/Documents/Netlify/netlify-cache-test
+distFolder: dist/netlify-cache-test
+outDir: /Users/filipwiniarski/Documents/Netlify/netlify-cache-test/dist/static
+handle404: ''
+allowErrorCollect: true

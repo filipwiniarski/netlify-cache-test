@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ScullyLibModule } from '@scullyio/ng-lib';
+import {RouterModule} from "@angular/router";
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { ScullyLibModule } from '@scullyio/ng-lib';
   ],
   imports: [
     BrowserModule,
-    ScullyLibModule
+    ScullyLibModule,
+    RouterModule.forRoot([])
   ],
   providers: [],
   bootstrap: [AppComponent]
